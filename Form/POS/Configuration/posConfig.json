@@ -1,0 +1,83 @@
+﻿{
+  "LoadTableScreenFirst": "true",
+  "EnableRunningAutoData": "false",
+  "EnableGetAndProcessOrderFromServer": "true",
+  "InvoideCodepattern": "TEST-{StoreId}-{Type}-{Code}",
+  "Language": "VI",
+  "EnableSound": "false",
+  "EnableOnscreenKeyboard": "false",
+  "NotiSoundName": "Noti_Sound.mp3",
+  "SaveTableStatus": "false",
+  "EnableUpdatePassword": "true",
+  "HasDelivery": "true",
+  "HasTakeAway": "true",
+  "HasAtStore": "true",
+  "TakeAwayDifferDelivery": "false",
+  "EnableServeTypeDialog": "true",
+  "Floor0": "Trệt",
+  "Floor1": "Lầu 1",
+  "Floor2": "Lầu 2",
+  "Floor3": "Lầu 3",
+  "Floor4": "Lầu 4",
+  "Floor5": "Lầu 5",
+  "ScaleCommunicatePort": "COM3",
+  "RatioToGram": 1.0,
+  "ResultWeightUnit": "gram",
+  "IsUsingScale": "false",
+  "IsUpdateExtraWhenUpdateOrderDetail": "true",
+  "IsShowMostOrderMenu": "true",
+  "UsingCategoryLevel": "false",
+  "IsShowMemberPoint": "false",
+  "IsShowCustomerNotes": "false",
+  "EnableVAT": "false",
+  "EnableOwe": "false",
+  "EnableTakeNote": "true",
+  "EnableChangeTable": "false",
+  "EnableQuickSaleMode": "false",
+  "EnableChangeOrderType": "false",
+  "EnableChangeServedStaff": "false",
+  "BarcodeDurationTime": 200,
+  "BarcodeRecognizeTime": 100,
+  "BarcodeCompletedPromotion": "10",
+  "EnableDeliveryStatus": "false",
+  "RequiredPasswordExportReport": "true",
+  "RequiredPasswordUpdate": "false",
+  "RequiredPasswordCancel": "true",
+  "IsShowMoneyReport": "true",
+  "EnableReceiptPrintPreview": "false",
+  "EnableViewCancelDetail": "true",
+  "EnableKitchenMode": "false",
+  "IsOnlyUseKitchen": "false",
+  "EnableAutoRefreshKitchenScreen": "true",
+  "EnableQuantityColor": "false",
+  "EnableScanBarcodeForProdcut": "false",
+  "EnableAutoExchange": "false",
+  "menuInfo": {
+    "MenuList": [
+      {
+        "Code": "COMSUON",
+        "Quantity": 10
+      },
+      {
+        "Code": "Demo2",
+        "Quantity": 0
+      },
+      {
+        "Code": "demo3",
+        "Quantity": 5
+      }
+    ]
+  },
+
+  "paymentType": {
+    //money|cc-visa|cc-mastercard|ticket|cc|users|hashtag|star-half-o|btc
+    "Tab8": "money",
+    "Tab2": "cc-mastercard",
+    "Tab3": "cc-visa",
+    "Tab4": "users",
+    "Tab5": "btc",
+    "Tab6": "vcard",
+    "Tab7": "grabfood",
+    "Tab1": "grabpay"
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+  "MenuList": [
+    {
+      "Code":  'COMSUON',
+      "Quantity": 10
+    },
+    {
+      "Code": 'Demo2',
+      "Quantity": 0
+    },
+    {
+      "Code": 'demo3',
+      "Quantity": 5
+    },
+  ] 
+}

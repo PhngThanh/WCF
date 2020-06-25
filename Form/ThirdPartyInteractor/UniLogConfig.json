@@ -1,0 +1,8 @@
+{
+  "UniLogConfig": {
+    "UniLogUrl": "http://apiunilog.unicode.edu.vn",
+    "UniLogUrlBackup": "http://apiunilog.unicode.edu.vn",
+    "UniLogAppCode": "NGUYENPOS",
+    "UniLogServerCode": "181SRVER"
+  }
+}

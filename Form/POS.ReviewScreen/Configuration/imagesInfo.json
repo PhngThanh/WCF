@@ -1,0 +1,19 @@
+{
+  "Images": [
+    {
+      "ImageName": "Combo1",
+      "ImageUrl": "combo1.jpg",
+      "ImageTime": "6"
+    },
+    {
+      "ImageName": "Combo2",
+      "ImageUrl": "combo2.png",
+      "ImageTime": "6"
+    },
+    {
+      "ImageName": "Combo3",
+      "ImageUrl": "combo3.png",
+      "ImageTime": "4"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿Could not parse the configuration file. The error message is: 'Value cannot be null.
+Parameter name: projectItems'. Try editing the file manually and then saving it.
+Generated model file: PosEntity.edmx.
+Loading metadata from the database took 00:00:00.4782192.
+Generating the model took 00:00:00.9872153.

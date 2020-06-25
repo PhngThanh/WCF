@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f17c5cf16015405791aa9f3f05945c76" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="PointOfSaleDBModel.Account" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.Category" Width="1.5" PointX="5.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.CategoryExtra" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.Customer" Width="1.5" PointX="7.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.DateReport" Width="1.5" PointX="7.75" PointY="7.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.Order" Width="1.5" PointX="0.75" PointY="3.5" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.OrderDetail" Width="1.5" PointX="3" PointY="9.25" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.OrderDetailPromotionMapping" Width="1.5" PointX="5.25" PointY="11" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.OrderPromotionMapping" Width="1.5" PointX="3" PointY="5.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.Payment" Width="1.5" PointX="3" PointY="1.5" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.Product" Width="1.5" PointX="9.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.ProductExtra" Width="1.5" PointX="9.75" PointY="8.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.Promotion" Width="1.5" PointX="11.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.PromotionDetail" Width="1.5" PointX="11.75" PointY="6.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.Source" Width="1.5" PointX="11.75" PointY="11.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.Store" Width="1.5" PointX="13.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PointOfSaleDBModel.Table" Width="1.5" PointX="13.75" PointY="5.75" />
+        <AssociationConnector Association="PointOfSaleDBModel.FK_OrderDetail_Order" />
+        <AssociationConnector Association="PointOfSaleDBModel.FK_OrderPromotionMapping_Order" />
+        <AssociationConnector Association="PointOfSaleDBModel.FK_Payment_Order" />
+        <AssociationConnector Association="PointOfSaleDBModel.FK_OrderDetailPromotionMapping_OrderDetail" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

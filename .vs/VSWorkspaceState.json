@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Form",
+    "\\Form\\POS",
+    "\\Form\\POS.PrinterManager",
+    "\\Form\\WcfAndSignalr"
+  ],
+  "SelectedNode": "\\Form\\WcfAndSignalr\\LocalService.cs",
+  "PreviewInSolutionExplorer": false
+}
