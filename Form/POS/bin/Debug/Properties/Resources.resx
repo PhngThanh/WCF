@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OPENSANS_LIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-light.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_white_metro_alarm_clock_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black-white-metro-alarm-clock-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="telephone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\telephone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPENSANS_EXTRABOLD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-extrabold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="back_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPENSANS_EXTRABOLDITALIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-extrabolditalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="key_previous_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_previous_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opensans_light1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-light1.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="key_move_right_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_move_right_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recycling_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recycling_g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delivery_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erase2a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erase2a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_next_w1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_next_w1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_w_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_w_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delivery_brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery_brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sweet9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sweet9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-box.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opensans_semibolditalic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-semibolditalic1.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cloud_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud_g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloud_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opensans_bold1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-bold1.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="icon_likefb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-likefb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tall14_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tall14_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_move_left_w1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_move_left_w1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPENSANS_LIGHTITALIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-lightitalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="key_previous_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_previous_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erase1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erase1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opensans_semibold1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-semibold1.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="printer_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer_g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erase2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erase2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tall14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tall14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="product_base" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product_base.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="report_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\report_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shop_s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shop_s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_g_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_g_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="report_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\report_g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_move_right_b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_move_right_b1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opensans_italic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-italic1.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="house_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house-08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_profile_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-profile 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delivery_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speedometer_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\speedometer_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opensans_extrabolditalic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-extrabolditalic1.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="key_move_left_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_move_left_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recycling_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recycling_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opensans_bolditalic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-bolditalic1.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_w_d1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_w_d1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPENSANS_BOLD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-bold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="key_next_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_next_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opensans_extrabold1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-extrabold1.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="key_move_left_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_move_left_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_arrow_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_arrow_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="root" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\root.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star-w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star-b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opensans_regular1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-regular1.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_g_d1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_g_d1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_move_right_w1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_move_right_w1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opensans_lightitalic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-lightitalic1.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="key_previous_b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_previous_b1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erase1a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erase1a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_w_u1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_w_u1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delivery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_access_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key-access-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPENSANS_ITALIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-italic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cup4s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cup4s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erase2a1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erase2a1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sweet9_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sweet9_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shift_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shift_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speedometer_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\speedometer_g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPENSANS_SEMIBOLD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-semibold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cup4s_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cup4s_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPENSANS_SEMIBOLDITALIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-semibolditalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="erase1a1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erase1a1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPENSANS_REGULAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="email11__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email11 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shift_b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shift_b1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="root_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\root_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_g_u1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_g_u1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plugin3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plugin3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erase11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erase11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erase21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erase21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_g_u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_g_u.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shift_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shift_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="null-image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\null.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_next_b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_next_b1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printer_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="advanced" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\advanced.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_move_right_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_move_right_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_move_left_b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_move_left_b1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_previous_w1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_previous_w1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Noti_Sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Noti_Sound.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="key_next_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_next_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OPENSANS_BOLDITALIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opensans-bolditalic.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="arrow_w_u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_w_u.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="binoculars_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\binoculars_g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="binoculars_w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\binoculars_w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="status" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\status.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="product_base_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product_base_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shift_w1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shift_w1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcode-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcode-white1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spinner_1s_200px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spinner-1s-200px.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
