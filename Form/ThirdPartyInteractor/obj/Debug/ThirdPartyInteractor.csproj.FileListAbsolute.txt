@@ -1,0 +1,15 @@
+D:\Wisky\Pos\Form\ThirdPartyInteractor\bin\Debug\Momo\MomoService.cs
+D:\Wisky\Pos\Form\ThirdPartyInteractor\bin\Debug\momo-pub.asc
+D:\Wisky\Pos\Form\ThirdPartyInteractor\bin\Debug\passio-sec.asc
+D:\Wisky\Pos\Form\ThirdPartyInteractor\bin\Debug\UniLogConfig.json
+D:\Wisky\Pos\Form\ThirdPartyInteractor\bin\Debug\ThirdPartyInteractor.dll.config
+D:\Wisky\Pos\Form\ThirdPartyInteractor\bin\Debug\ThirdPartyInteractor.dll
+D:\Wisky\Pos\Form\ThirdPartyInteractor\bin\Debug\ThirdPartyInteractor.pdb
+D:\Wisky\Pos\Form\ThirdPartyInteractor\bin\Debug\BouncyCastle.Crypto.dll
+D:\Wisky\Pos\Form\ThirdPartyInteractor\bin\Debug\Newtonsoft.Json.dll
+D:\Wisky\Pos\Form\ThirdPartyInteractor\bin\Debug\Newtonsoft.Json.xml
+D:\Wisky\Pos\Form\ThirdPartyInteractor\obj\Debug\ThirdPartyInteractor.csproj.CoreCompileInputs.cache
+D:\Wisky\Pos\Form\ThirdPartyInteractor\obj\Debug\ThirdPartyInteractor.csproj.CopyComplete
+D:\Wisky\Pos\Form\ThirdPartyInteractor\obj\Debug\ThirdPartyInteractor.dll
+D:\Wisky\Pos\Form\ThirdPartyInteractor\obj\Debug\ThirdPartyInteractor.pdb
+D:\Wisky\Pos\Form\ThirdPartyInteractor\obj\Debug\ThirdPartyInteractor.csprojAssemblyReference.cache

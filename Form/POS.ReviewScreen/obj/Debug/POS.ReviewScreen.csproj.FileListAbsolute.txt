@@ -1,0 +1,8 @@
+D:\Wisky\Pos\Form\POS.ReviewScreen\obj\Debug\POS.ReviewScreen.FullSreen.resources
+D:\Wisky\Pos\Form\POS.ReviewScreen\obj\Debug\POS.ReviewScreen.Monitor2.resources
+D:\Wisky\Pos\Form\POS.ReviewScreen\obj\Debug\POS.ReviewScreen.formMonitor3.resources
+D:\Wisky\Pos\Form\POS.ReviewScreen\obj\Debug\POS.ReviewScreen.Properties.Resources.resources
+D:\Wisky\Pos\Form\POS.ReviewScreen\obj\Debug\POS.ReviewScreen.ReviewCode.resources
+D:\Wisky\Pos\Form\POS.ReviewScreen\obj\Debug\POS.ReviewScreen.csproj.GenerateResource.cache
+D:\Wisky\Pos\Form\POS.ReviewScreen\obj\Debug\POS.ReviewScreen.csproj.CoreCompileInputs.cache
+D:\Wisky\Pos\Form\POS.ReviewScreen\obj\Debug\POS.ReviewScreen.csprojAssemblyReference.cache

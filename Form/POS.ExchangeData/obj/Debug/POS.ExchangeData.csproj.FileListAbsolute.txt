@@ -1,0 +1,112 @@
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\UniLogConfig.json
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.dll.config
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.pdb
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\AutoMapper.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\log4net.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.Repository.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyWeb.DatVM.Data.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyWeb.DatVM.Mvc.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\EntityFramework.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\Dynamic.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\BouncyCastle.Crypto.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.Repository.pdb
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.Repository.dll.config
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.pdb
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.dll.config
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\AutoMapper.xml
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\log4net.xml
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\EntityFramework.xml
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\vi\POS.Repository.resources.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csprojAssemblyReference.cache
+D:\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csproj.CoreCompileInputs.cache
+D:\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csproj.CopyComplete
+D:\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.pdb
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\StackExchange.Redis.dll
+D:\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\StackExchange.Redis.xml
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\UniLogConfig.json
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.dll.config
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.pdb
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\AutoMapper.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\log4net.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.Repository.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyWeb.DatVM.Data.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyWeb.DatVM.Mvc.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\StackExchange.Redis.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\EntityFramework.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\Dynamic.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\BouncyCastle.Crypto.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.Repository.pdb
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.Repository.dll.config
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.pdb
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.dll.config
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\AutoMapper.xml
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\log4net.xml
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\StackExchange.Redis.xml
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\EntityFramework.xml
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\vi\POS.Repository.resources.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csprojAssemblyReference.cache
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csproj.CoreCompileInputs.cache
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csproj.CopyComplete
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.dll
+C:\Repos C#\WCF\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.pdb
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\UniLogConfig.json
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.dll.config
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.pdb
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\AutoMapper.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\log4net.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.Repository.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyWeb.DatVM.Data.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyWeb.DatVM.Mvc.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\StackExchange.Redis.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\EntityFramework.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\Dynamic.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\BouncyCastle.Crypto.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.Repository.pdb
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\POS.Repository.dll.config
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.pdb
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.dll.config
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\AutoMapper.xml
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\log4net.xml
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\StackExchange.Redis.xml
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\EntityFramework.xml
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\bin\Debug\vi\POS.Repository.resources.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csprojAssemblyReference.cache
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csproj.CoreCompileInputs.cache
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csproj.CopyComplete
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.dll
+D:\FPT\SE_CN7\SWD391\WCF\Wisky\Pos\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.pdb
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\UniLogConfig.json
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.dll.config
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\POS.ExchangeData.pdb
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\AutoMapper.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\log4net.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\POS.Repository.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\SkyWeb.DatVM.Data.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\SkyWeb.DatVM.Mvc.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\StackExchange.Redis.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\EntityFramework.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\Dynamic.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\BouncyCastle.Crypto.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\POS.Repository.pdb
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\POS.Repository.dll.config
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.pdb
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\SkyConnect.POSLib.dll.config
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\AutoMapper.xml
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\log4net.xml
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\StackExchange.Redis.xml
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\EntityFramework.xml
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\bin\Debug\vi\POS.Repository.resources.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csprojAssemblyReference.cache
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csproj.CoreCompileInputs.cache
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.csproj.CopyComplete
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.dll
+D:\FPT\SE_CN7\SWD391\KiOsk_KDS\Form\POS.ExchangeData\obj\Debug\POS.ExchangeData.pdb

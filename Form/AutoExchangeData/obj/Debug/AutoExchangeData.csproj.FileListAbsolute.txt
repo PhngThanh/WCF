@@ -1,0 +1,4 @@
+D:\Wisky\Pos\Form\AutoExchangeData\obj\Debug\AutoExchangeData.csprojAssemblyReference.cache
+D:\Wisky\Pos\Form\AutoExchangeData\obj\Debug\AutoExchangeData.ProjectInstaller.resources
+D:\Wisky\Pos\Form\AutoExchangeData\obj\Debug\AutoExchangeData.csproj.GenerateResource.cache
+D:\Wisky\Pos\Form\AutoExchangeData\obj\Debug\AutoExchangeData.csproj.CoreCompileInputs.cache

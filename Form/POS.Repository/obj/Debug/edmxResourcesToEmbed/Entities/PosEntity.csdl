@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PointOfSaleDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PointOfSaleDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="PointOfSaleDBModel.Account" />
+    <EntitySet Name="Categories" EntityType="PointOfSaleDBModel.Category" />
+    <EntitySet Name="CategoryExtras" EntityType="PointOfSaleDBModel.CategoryExtra" />
+    <EntitySet Name="Customers" EntityType="PointOfSaleDBModel.Customer" />
+    <EntitySet Name="DateReports" EntityType="PointOfSaleDBModel.DateReport" />
+    <EntitySet Name="Orders" EntityType="PointOfSaleDBModel.Order" />
+    <EntitySet Name="OrderDetails" EntityType="PointOfSaleDBModel.OrderDetail" />
+    <EntitySet Name="OrderDetailPromotionMappings" EntityType="PointOfSaleDBModel.OrderDetailPromotionMapping" />
+    <EntitySet Name="OrderPromotionMappings" EntityType="PointOfSaleDBModel.OrderPromotionMapping" />
+    <EntitySet Name="Payments" EntityType="PointOfSaleDBModel.Payment" />
+    <EntitySet Name="Products" EntityType="PointOfSaleDBModel.Product" />
+    <EntitySet Name="ProductExtras" EntityType="PointOfSaleDBModel.ProductExtra" />
+    <EntitySet Name="Promotions" EntityType="PointOfSaleDBModel.Promotion" />
+    <EntitySet Name="PromotionDetails" EntityType="PointOfSaleDBModel.PromotionDetail" />
+    <EntitySet Name="Sources" EntityType="PointOfSaleDBModel.Source" />
+    <EntitySet Name="Stores" EntityType="PointOfSaleDBModel.Store" />
+    <EntitySet Name="Tables" EntityType="PointOfSaleDBModel.Table" />
+    <AssociationSet Name="FK_OrderDetail_Order" Association="PointOfSaleDBModel.FK_OrderDetail_Order">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="OrderDetail" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderPromotionMapping_Order" Association="PointOfSaleDBModel.FK_OrderPromotionMapping_Order">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="OrderPromotionMapping" EntitySet="OrderPromotionMappings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Order" Association="PointOfSaleDBModel.FK_Payment_Order">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="Payment" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetailPromotionMapping_OrderDetail" Association="PointOfSaleDBModel.FK_OrderDetailPromotionMapping_OrderDetail">
+      <End Role="OrderDetail" EntitySet="OrderDetails" />
+      <End Role="OrderDetailPromotionMapping" EntitySet="OrderDetailPromotionMappings" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="AccountId" />
+    </Key>
+    <Property Name="AccountId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AccountPassword" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StaffName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Role" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsUsed" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="Int32" Nullable="false" />
+    <Property Name="DisplayOrder" Type="Int32" Nullable="false" />
+    <Property Name="IsDisplayed" Type="Boolean" Nullable="false" />
+    <Property Name="IsUsed" Type="Boolean" Nullable="false" />
+    <Property Name="IsExtra" Type="Int32" />
+    <Property Name="AdjustmentNote" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ImageFontAwsomeCss" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ParentCateId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="CategoryExtra">
+    <Key>
+      <PropertyRef Name="CategoryExtraId" />
+    </Key>
+    <Property Name="CategoryExtraId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PrimaryCategoryCode" Type="Int32" Nullable="false" />
+    <Property Name="ExtraCategoryCode" Type="Int32" Nullable="false" />
+    <Property Name="IsEnable" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Nationality" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DateReport">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreateBy" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="TotalAmount" Type="Double" />
+    <Property Name="FinalAmount" Type="Double" />
+    <Property Name="Discount" Type="Double" />
+    <Property Name="DiscountOrderDetail" Type="Double" />
+    <Property Name="TotalCash" Type="Double" />
+    <Property Name="TotalOrder" Type="Int32" Nullable="false" />
+    <Property Name="TotalOrderAtStore" Type="Int32" Nullable="false" />
+    <Property Name="TotalOrderTakeAway" Type="Int32" Nullable="false" />
+    <Property Name="TotalOrderDelivery" Type="Int32" Nullable="false" />
+    <Property Name="TotalOrderDetail" Type="Double" Nullable="false" />
+    <Property Name="TotalOrderFeeItem" Type="Double" Nullable="false" />
+    <Property Name="TotalOrderCard" Type="Int32" Nullable="false" />
+    <Property Name="TotalOrderCanceled" Type="Int32" />
+    <Property Name="TotalOrderPreCanceled" Type="Int32" />
+    <Property Name="FinalAmountAtStore" Type="Double" />
+    <Property Name="FinalAmountTakeAway" Type="Double" />
+    <Property Name="FinalAmountDelivery" Type="Double" />
+    <Property Name="FinalAmountCard" Type="Double" />
+    <Property Name="FinalAmountCanceled" Type="Double" />
+    <Property Name="FinalAmountPreCanceled" Type="Double" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CheckInDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CheckOutDate" Type="DateTime" Precision="3" />
+    <Property Name="ApproveDate" Type="DateTime" Precision="3" />
+    <Property Name="TotalAmount" Type="Double" Nullable="false" />
+    <Property Name="Discount" Type="Double" Nullable="false" />
+    <Property Name="DiscountOrderDetail" Type="Double" Nullable="false" />
+    <Property Name="FinalAmount" Type="Double" Nullable="false" />
+    <Property Name="OrderStatus" Type="Int32" Nullable="false" />
+    <Property Name="OrderType" Type="Int32" Nullable="false" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="FeeDescription" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CheckInPerson" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CheckOutPerson" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ApprovePerson" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="SourceID" Type="Int32" />
+    <Property Name="TableId" Type="Int32" />
+    <Property Name="IsFixedPrice" Type="Boolean" Nullable="false" />
+    <Property Name="LastRecordDate" Type="DateTime" Precision="3" />
+    <Property Name="ServedPerson" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DeliveryAddress" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DeliveryStatus" Type="Int32" Nullable="false" />
+    <Property Name="DeliveryPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DeliveryCustomer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TotalInvoicePrint" Type="Int32" Nullable="false" />
+    <Property Name="VAT" Type="Double" Nullable="false" />
+    <Property Name="VATAmount" Type="Double" Nullable="false" />
+    <Property Name="NumberOfGuest" Type="Int32" Nullable="false" />
+    <Property Name="GroupPaymentStatus" Type="Int32" Nullable="false" />
+    <Property Name="Att1" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Att2" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Att3" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Att4" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Att5" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PromotionCode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PasswordWifi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerType" Type="Int32" />
+    <Property Name="LastModifiedPayment" Type="DateTime" Precision="3" />
+    <Property Name="LastModifiedOrderDetail" Type="DateTime" Precision="3" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="PaymentCode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PersonCount" Type="Int32" />
+    <NavigationProperty Name="OrderDetails" Relationship="PointOfSaleDBModel.FK_OrderDetail_Order" FromRole="Order" ToRole="OrderDetail" />
+    <NavigationProperty Name="OrderPromotionMappings" Relationship="PointOfSaleDBModel.FK_OrderPromotionMapping_Order" FromRole="Order" ToRole="OrderPromotionMapping" />
+    <NavigationProperty Name="Payments" Relationship="PointOfSaleDBModel.FK_Payment_Order" FromRole="Order" ToRole="Payment" />
+  </EntityType>
+  <EntityType Name="OrderDetail">
+    <Key>
+      <PropertyRef Name="OrderDetailID" />
+    </Key>
+    <Property Name="OrderDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="ProductCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FinalAmount" Type="Double" Nullable="false" />
+    <Property Name="TotalAmount" Type="Double" Nullable="false" />
+    <Property Name="Discount" Type="Double" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TaxValue" Type="Double" />
+    <Property Name="UnitPrice" Type="Double" Nullable="false" />
+    <Property Name="ProductType" Type="Int32" />
+    <Property Name="ParentId" Type="Int32" />
+    <Property Name="ProductOrderType" Type="Int32" Nullable="false" />
+    <Property Name="ItemQuantity" Type="Int32" Nullable="false" />
+    <Property Name="OrderGroup" Type="Int32" Nullable="false" />
+    <Property Name="TmpDetailId" Type="Int32" />
+    <Property Name="PromotionCode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="OrderPromotionMappingId" Type="Int32" />
+    <Property Name="OrderDetailPromotionMappingId" Type="Int32" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="Code" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Order" Relationship="PointOfSaleDBModel.FK_OrderDetail_Order" FromRole="OrderDetail" ToRole="Order" />
+    <NavigationProperty Name="OrderDetailPromotionMappings" Relationship="PointOfSaleDBModel.FK_OrderDetailPromotionMapping_OrderDetail" FromRole="OrderDetail" ToRole="OrderDetailPromotionMapping" />
+  </EntityType>
+  <EntityType Name="OrderDetailPromotionMapping">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderDetailId" Type="Int32" Nullable="false" />
+    <Property Name="PromotionCode" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PromotionDetailCode" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MappingIndex" Type="Int32" Nullable="false" />
+    <Property Name="DiscountAmount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DiscountRate" Type="Int32" />
+    <Property Name="TmpMappingId" Type="Int32" />
+    <NavigationProperty Name="OrderDetail" Relationship="PointOfSaleDBModel.FK_OrderDetailPromotionMapping_OrderDetail" FromRole="OrderDetailPromotionMapping" ToRole="OrderDetail" />
+  </EntityType>
+  <EntityType Name="OrderPromotionMapping">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+    <Property Name="PromotionCode" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PromotionDetailCode" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MappingIndex" Type="Int32" Nullable="false" />
+    <Property Name="DiscountAmount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DiscountRate" Type="Int32" />
+    <Property Name="TmpMappingId" Type="Int32" />
+    <NavigationProperty Name="Order" Relationship="PointOfSaleDBModel.FK_OrderPromotionMapping_Order" FromRole="OrderPromotionMapping" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentID" />
+    </Key>
+    <Property Name="PaymentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Double" Nullable="false" />
+    <Property Name="CurrencyCode" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="FCAmount" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PayTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="Type" Type="Int32" Nullable="false" />
+    <Property Name="CardCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="Code" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Order" Relationship="PointOfSaleDBModel.FK_Payment_Order" FromRole="Payment" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProductName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ShortName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Double" Nullable="false" />
+    <Property Name="PicURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CatID" Type="Int32" Nullable="false" />
+    <Property Name="IsAvailable" Type="Boolean" />
+    <Property Name="DiscountPercent" Type="Double" Nullable="false" />
+    <Property Name="DiscountPrice" Type="Double" Nullable="false" />
+    <Property Name="ProductType" Type="Int32" Nullable="false" />
+    <Property Name="DisplayOrder" Type="Int32" Nullable="false" />
+    <Property Name="HasExtra" Type="Boolean" />
+    <Property Name="IsFixedPrice" Type="Boolean" Nullable="false" />
+    <Property Name="PosX" Type="Int32" Nullable="false" />
+    <Property Name="PosY" Type="Int32" Nullable="false" />
+    <Property Name="ColorGroup" Type="Int32" />
+    <Property Name="Group" Type="Int32" Nullable="false" />
+    <Property Name="IsMenuDisplay" Type="Boolean" />
+    <Property Name="GeneralProductId" Type="Int32" />
+    <Property Name="Att1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Att2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Att3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MaxExtra" Type="Int32" />
+    <Property Name="IsMostOrder" Type="Boolean" />
+    <Property Name="IsUsed" Type="Boolean" Nullable="false" />
+    <Property Name="ProductParentId" Type="Int32" />
+    <Property Name="PrintGroup" Type="Int32" Nullable="false" />
+    <Property Name="IsDefaultChildProduct" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductExtra">
+    <Key>
+      <PropertyRef Name="ProductExtraId" />
+    </Key>
+    <Property Name="ProductExtraId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PrimaryProductCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ExtraProductCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsEnable" Type="Boolean" Nullable="false" />
+    <Property Name="IsDisplayed" Type="Boolean" />
+    <Property Name="MaxItem" Type="Int32" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="TimeStamp" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="IsUsed" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Promotion">
+    <Key>
+      <PropertyRef Name="PromotionID" />
+    </Key>
+    <Property Name="PromotionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PromotionCode" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PromotionName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="PromotionClassName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ImageCss" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ApplyLevel" Type="Int32" Nullable="false" />
+    <Property Name="GiftType" Type="Int32" Nullable="false" />
+    <Property Name="IsForMember" Type="Boolean" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="FromDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ToDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ApplyFromTime" Type="Int32" />
+    <Property Name="ApplyToTime" Type="Int32" />
+    <Property Name="PromotionType" Type="Int32" />
+    <Property Name="IsVoucher" Type="Boolean" />
+    <Property Name="IsApplyOnce" Type="Boolean" />
+    <Property Name="Active" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="PromotionDetail">
+    <Key>
+      <PropertyRef Name="PromotionDetailID" />
+    </Key>
+    <Property Name="PromotionDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PromotionCode" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="RegExCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MinOrderAmount" Type="Double" />
+    <Property Name="MaxOrderAmount" Type="Double" />
+    <Property Name="BuyProductCode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MinBuyQuantity" Type="Int32" />
+    <Property Name="MaxBuyQuantity" Type="Int32" />
+    <Property Name="GiftProductCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PromotionDetailCode" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GiftQuantity" Type="Int32" />
+    <Property Name="DiscountAmount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DiscountRate" Type="Int32" />
+    <Property Name="Active" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Source">
+    <Key>
+      <PropertyRef Name="SourceId" />
+    </Key>
+    <Property Name="SourceId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ContactPerson" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Store">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StoreCode" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Lat" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Lon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="isAvailable" Type="Boolean" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Fax" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="Type" Type="Int32" Nullable="false" />
+    <Property Name="RoomRentMode" Type="Int32" />
+    <Property Name="ReportDate" Type="DateTime" Precision="3" />
+    <Property Name="ShortName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsUsed" Type="Boolean" Nullable="false" />
+    <Property Name="AuthorizeCode" Type="String" MaxLength="8" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="DisplayOrder" Type="Int32" Nullable="false" />
+    <Property Name="IsCircle" Type="Boolean" Nullable="false" />
+    <Property Name="TableRow" Type="Int32" Nullable="false" />
+    <Property Name="TableColumn" Type="Int32" Nullable="false" />
+    <Property Name="SpanTableRow" Type="Int32" Nullable="false" />
+    <Property Name="SpanTableColumn" Type="Int32" Nullable="false" />
+    <Property Name="Floor" Type="Int32" Nullable="false" />
+    <Property Name="CurrentOrderId" Type="Int32" />
+    <Property Name="CurrentOrderDate" Type="DateTime" Precision="3" />
+    <Property Name="ForOrderType" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_OrderDetail_Order">
+    <End Type="PointOfSaleDBModel.Order" Role="Order" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="PointOfSaleDBModel.OrderDetail" Role="OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="OrderDetail">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderPromotionMapping_Order">
+    <End Type="PointOfSaleDBModel.Order" Role="Order" Multiplicity="1" />
+    <End Type="PointOfSaleDBModel.OrderPromotionMapping" Role="OrderPromotionMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="OrderPromotionMapping">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Order">
+    <End Type="PointOfSaleDBModel.Order" Role="Order" Multiplicity="1" />
+    <End Type="PointOfSaleDBModel.Payment" Role="Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDetailPromotionMapping_OrderDetail">
+    <End Type="PointOfSaleDBModel.OrderDetail" Role="OrderDetail" Multiplicity="1" />
+    <End Type="PointOfSaleDBModel.OrderDetailPromotionMapping" Role="OrderDetailPromotionMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderDetail">
+        <PropertyRef Name="OrderDetailID" />
+      </Principal>
+      <Dependent Role="OrderDetailPromotionMapping">
+        <PropertyRef Name="OrderDetailId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
